@@ -2,7 +2,7 @@
 ### _by Arvind Rathee_
 Movie trailer website project, part of the Udacity [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
-## What is does?
+## What it does?
 This is python code to store a list of your favorite movies, and then generate a static HTML web page allowing visitors to browse their movies and watch the trailers.
 
 ### Required Libraries and Dependencies
