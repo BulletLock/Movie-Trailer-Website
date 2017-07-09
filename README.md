@@ -31,7 +31,7 @@ python entertainment_center.py
 
 Your default browser should launch a new tab displaying the movie trailer website.
 
-### Changes made to to fresh_tomatoes.py
+### Changes made to fresh_tomatoes.py
 
 - Background color is changed to #F5F5F5.
 - A box-shadow is added to the tile on hover.
