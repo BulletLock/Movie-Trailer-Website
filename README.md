@@ -1,5 +1,5 @@
 # Movie Trailer Website
-**_by Arvind Rathee_**
+### _by Arvind Rathee_
 Movie trailer website project, part of the Udacity [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
 ## What is does?
