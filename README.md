@@ -8,10 +8,6 @@ _These are the modules that user need to be familiar with_
    - re
 
 ### Working
->media.py contains the class that is used to generate objects or instances
->of your favorite movies, also this class contain the most important functionality
->of the website that being showing the trailer of your favorite movies.
->tomatoes.py is the static page generator, this contains a function open_movie_page() 
->that takes data structure as an argument and generates a static page.
->entertainment-center.py is the center of the program, here all the movie
->instances or objects are created and list of movies is also created here.
+- media.py contains the class that is used to generate objects or instances of your favorite movies, also this class contain the most important functionality of the website that being showing the trailer of your favorite movies.
+- tomatoes.py is the static page generator, this contains a function open_movie_page() that takes data structure as an argument and generates a static page.
+- entertainment-center.py is the center of the program here all the movie instances or objects are created and list of movies is also created here.
