@@ -26,7 +26,7 @@ window in Linux, the command prompt in Windows).
 Navigate to the project directory and type in the following command:
 
 ```bash
-python entertainment_center.py
+python entertainment-center.py
 ```
 
 Your default browser should launch a new tab displaying the movie trailer website.
