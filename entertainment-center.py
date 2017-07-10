@@ -2,54 +2,64 @@
 import media
 import fresh_tomatoes
 
+
 def main():
     """Creates six Movie objects, initialising these objects with title, storyline,
-    poster image link and video trailer link."""
-    
-    #Deadpool Movie info
-    deadpool = media.Movie("Deadpool",
-                           "DEADPOOL tells the origin story of former Special Forces operative turned mercenary Wade Wilson.",
-                           "https://upload.wikimedia.org/wikipedia/en/4/46/Deadpool_poster.jpg",
-                           "https://www.youtube.com/watch?v=gtTfd6tISfw")
+    poster image link and video trailer link.
+    I have used link shortners for poster image link and video
+    trailer link because original links were too big."""
 
-    #John Wick Movie info
+    # Deadpool Movie info
+    deadpool = media.Movie("Deadpool",
+                           """DEADPOOL tells the origin story of former Special
+                              Forces operative turned mercenary Wade Wilson""",
+                           "https://goo.gl/Nna2uy",
+                           "http://y2u.be/gtTfd6tISfw")
+
+    # John Wick Movie info
     john_wick = media.Movie("John Wick",
                             "A retired but deadly hitman seeking vengeance",
-                            "https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg",
-                            "https://www.youtube.com/watch?v=RllJtOw0USI")
+                            "https://goo.gl/beMh3P",
+                            "http://y2u.be/RllJtOw0USI")
 
-    #Pirates of the Caribbean Movie info
+    # Pirates of the Caribbean Movie info
     pirates_of_caribbean = media.Movie("Pirates of the Caribbean",
-                                       "Blacksmith Will Turner teams up with eccentric pirate 'Captain' Jack Sparrow to save his love.",
-                                       "https://upload.wikimedia.org/wikipedia/en/8/89/Pirates_of_the_Caribbean_-_The_Curse_of_the_Black_Pearl.png",
-                                       "https://www.youtube.com/watch?v=naQr0uTrH_s")
+                                       """Blacksmith Will Turner teams up with
+                                          eccentric pirate 'Captain'
+                                          Jack Sparrow to save his love.""",
+                                       "https://goo.gl/7GWWPj",
+                                       "http://y2u.be/naQr0uTrH_s")
 
-    #Spider-Man Movie info
+    # Spider-Man Movie info
     spider_man = media.Movie("Spider-Man: Homecoming",
-                             "Peter Parker tries to balance high school life with being the hero Spider-Man as he faces the Vulture.",
-                             "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg",
-                             "https://www.youtube.com/watch?v=n9DwoQ7HWvI")
+                             """Peter Parker tries to balance high school
+                                life with being the hero Spider-Man
+                                as he faces the Vulture.""",
+                             "https://goo.gl/Fn8VGn",
+                             "http://y2u.be/n9DwoQ7HWvI")
 
-    #Justice League Movie info
+    # Justice League Movie info
     justice_league = media.Movie("Justice League",
-                                 "Batman and Wonder Woman assemble a team consisting of Flash, Aquaman, and Cyborg.",
-                                 "https://upload.wikimedia.org/wikipedia/en/3/31/Justice_League_film_poster.jpg",
-                                 "https://www.youtube.com/watch?v=3cxixDgHUYw")
+                                 """Batman and Wonder Woman assemble a team
+                                    consisting of Flash, Aquaman and Cyborg""",
+                                 "https://goo.gl/REurpk",
+                                 "http://y2u.be/3cxixDgHUYw")
 
-    #Thor: Ragnarok Movie info
+    # Thor: Ragnarok Movie info
     thor_ragnarok = media.Movie("Thor: Ragnarok",
-                                "Thor must defeat the Hulk in a gladiatorial duel in time to save Asgard from Hela and the coming Ragnarok.",
-                                "https://upload.wikimedia.org/wikipedia/en/7/7d/Thor_Ragnarok_poster.jpg",
-                                "https://www.youtube.com/watch?v=v7MGUNV8MxU")
+                                """Thor must defeat the Hulk in a gladiatorial duel
+                                   in time to save Asgard from Hela and
+                                   the coming Ragnarok.""",
+                                "https://goo.gl/Vf4PZ8",
+                                "http://y2u.be/v7MGUNV8MxU")
 
-
-    #A list containing all the names of movie object created.
+    # A list containing all the names of movie object created.
     movies = [spider_man, justice_league, thor_ragnarok,
-              deadpool, john_wick, pirates_of_caribbean]  
+              deadpool, john_wick, pirates_of_caribbean]
 
-
-    #Passing movies list as an argument to the open_movie_page() function present in fresh_tomatoes.
-    fresh_tomatoes.open_movies_page(movies)  
+    """Passing movies list as an argument to the
+       open_movie_page() function present in fresh_tomatoes."""
+    fresh_tomatoes.open_movies_page(movies)
 
 
 if __name__ == '__main__':
