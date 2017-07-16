@@ -13,7 +13,7 @@ Python 3.x is required to run this project. The Python executable should be in y
 - entertainment-center.py - main Python script to run
 - media.py - contains the class Movie that stores movie details
 - fresh_tomatoes.py - creates the HTML file for the website (Udacity supplied)
-- fresh_tomatoes.html - A static page created by the program
+- index.html - A static page created by the program
 
 ## How to Run Project
 
